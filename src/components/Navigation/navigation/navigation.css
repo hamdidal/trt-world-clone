@@ -1,0 +1,27 @@
+.live {
+  display: flex;
+  align-items: center;
+  font-family: "trt", sans-serif;
+  font-weight: 400;
+  gap: 4px;
+  font-size: 12px;
+}
+
+.navigation-large {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.navigation-small {
+  display: none;
+}
+
+@media screen and (max-width: 769px) {
+  .navigation-large {
+    display: none;
+  }
+  .navigation-small {
+    display: block;
+  }
+}

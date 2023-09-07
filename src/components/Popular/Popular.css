@@ -1,0 +1,43 @@
+.popular {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #E1E6EB;
+    padding: 2rem 0;
+}
+
+.popular__index {
+    font-family: 'TRT';
+    font-weight: 700;
+    font-size: 3rem;
+    color: #BFC3C9;
+    height: 50px;
+    width: 50px;
+}
+
+.popular__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+.popular__info > p {
+    margin: 0;
+}
+
+.popular__info__title {
+    font-family: 'Noto Serif';
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-align: left;
+}
+
+.popular__info__author {
+    font-family: 'TRT';
+    font-weight: 700;
+    font-size: 0.75rem;
+    color: black
+}

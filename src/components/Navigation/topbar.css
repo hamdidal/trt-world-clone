@@ -1,0 +1,16 @@
+.topbar {
+    display: flex;
+    position:fixed;
+    width: 100%;
+    background-color: #005D99;
+    align-items: center;
+    height: 48px;
+    padding: 0px 32px;
+    z-index: 20;
+}
+
+@media screen and (max-width: 769px) {
+   .topbar {
+        padding: 0px 10px 0px 12px;
+    }
+}
